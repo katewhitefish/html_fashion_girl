@@ -1,0 +1,174 @@
+body{
+  padding:0;
+  margin: 0;
+}
+
+header{
+  position: relative;
+  width: 1440px;
+  height: 850px;
+  background: #14304D;
+
+  font-family: Roboto;
+  font-style: normal;
+  line-height: normal;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+
+ul{
+  padding-inline-start: 0px;
+  list-style:none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+nav{
+  position: absolute;
+  display: flex;
+  width: 500px;
+  height: 80px;
+  left: 550px;
+  top: 0px;
+  background: #EB5757;
+}
+
+.girl{
+  position: absolute;
+  width: 650px;
+  height: 850px;
+  left: 0px;
+  top: 0px;
+
+  background: url(image/sporty-girl.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu {
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+}
+
+.social-bar{
+    position: absolute;
+    left: 800px;
+    top: 780px;
+    width:500px;
+    font-size: 18px;
+}
+
+.social-networks{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    list-style:none;
+}
+
+.statement{
+    position: absolute;
+    width: 672px;
+    height: 160px;
+    left: 703px;
+    top: 270px;
+
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+
+    color: #EB5757;
+}
+
+.number{
+    position: absolute;
+    width: 93px;
+    height: 80px;
+    left: 703px;
+    top: 650px;
+
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 64px;
+}
+
+.firm-logo{
+    position: absolute;
+    width: 66px;
+    height: 36px;
+    left: 60px;
+    top: 22px;
+
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.btn{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    background: #FFFFFF;
+    top: 770px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-right{
+    left: 650px;
+}
+
+.btn-left{
+    left: 550px;
+}
+
+.scroll-block{
+    position: absolute;
+    width: 100px;
+    height: 296px;
+    left: 1340px;
+    top: 554px;
+
+    background: #EB5757;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.scroll-content{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.scroll-line{
+    width: 60px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.search{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 1282.5px;
+    top: 27px;
+}
+
+.basket{
+    position: absolute;
+    width: 11.02px;
+    height: 10.7px;
+    left: 1363.2px;
+    top: 25px;
+}
